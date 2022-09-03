@@ -1,0 +1,13 @@
+baseURL = 'https://pavel-saladukha.github.io/lodz-wiki/'
+title = 'Łódż wiki'
+
+theme = "hugo-book"
+
+disableKinds = []
+
+[params]
+  # (Optional, default light) Sets color theme: light, dark or auto.
+  # Theme 'auto' switches between dark and light modes based on browser/os preferences
+  BookTheme = 'light'
+  BookToC = true
+  BookSection = '*'
