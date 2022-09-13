@@ -2,8 +2,8 @@ baseURL = 'https://pavel-saladukha.github.io/lodz-wiki/'
 title = 'Łódż wiki'
 
 theme = "hugo-book"
-
 disableKinds = []
+enableGitInfo = true
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
@@ -11,3 +11,6 @@ disableKinds = []
   BookTheme = 'light'
   BookToC = true
   BookSection = '*'
+
+[markup.goldmark.renderer]
+  unsafe = true
